@@ -1,0 +1,116 @@
+html {
+  background: #F09819;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, left bottom, from(#dfbd8e), to(#f3aa44));
+  background: linear-gradient(to bottom, #dfbd8e, #f3aa44);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto Slab', serif;
+}
+
+html body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body main .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 550px;
+  width: 400px;
+  background-color: #fff;
+  margin-top: 10%;
+  padding: 50px;
+}
+
+html body main .card img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  -webkit-filter: drop-shadow(5px 5px 4px #979797);
+          filter: drop-shadow(5px 5px 4px #979797);
+}
+
+html body main .card .blurb {
+  text-align: center;
+}
+
+html body main .card .icons {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+html body main .card .icons i {
+  color: #000;
+}
+
+html body main .card h1 {
+  font-weight: 700;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+}
+
+html body main .card p {
+  font-weight: 300;
+}
+
+html body main .card hr {
+  border: 0.5px solid #c2c2c2;
+  width: 100%;
+  margin: 0;
+}
+
+html body main .card .title {
+  margin: 0;
+}
+
+html body main .card .connect p {
+  font-weight: 700;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+}
+
+html body main .card .icons i {
+  padding: 5px;
+  font-size: 18px;
+}
+
+html body main .card .icons i:hover {
+  color: #dfbd8e;
+}
+
+html body main .card #status {
+  font-weight: 700;
+}
+
+html body footer p {
+  font-weight: 300;
+  font-size: 12px;
+}
+/*# sourceMappingURL=styles.css.map */
